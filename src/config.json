@@ -1,0 +1,9 @@
+{
+    "mnemonic" : "clap laundry claw prosper comic book rabbit vacant captain indoor attitude initial",
+    "size" : 10,
+    "ApiURL" : "wss://kate.avail.tools/ws",
+    "app_id" : 0,
+    "batch" : 10, 
+    "receiver": "5HQgW51Aad1L5dgXoNzA5PneB8hey16zFvywvh1YvPrNQnVC",
+    "amount" : 1
+}
