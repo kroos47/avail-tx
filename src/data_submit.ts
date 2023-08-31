@@ -41,7 +41,8 @@ async function getNonce(api: ApiPromise, address: string): Promise<number> {
 async function sendTx(api: ApiPromise, sender: KeyringPair, nonce: number): Promise<any> {
     try {
 
-        let data = generateData(config.size);
+        let size = config.size * 512;
+        let data = generateData(size);
         let submit = api.tx.dataAvailability.submitData(data);
         /* @note here app_id is 1,
         but if you want to have one your own then create one first before initialising here */
